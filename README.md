@@ -1,5 +1,9 @@
 # retinal-oct-classification
 
+<p align="center">
+  <img src="https://github.com/byunsy/retinal-oct-classification/blob/main/images/retinal.png" alt="image"/>
+</p>
+
 ## Description
 
 Retinal-oct-classification is a jupyter notebook that utilizes CNN (Convolutional Neural Network) to accurately classify macular degeneration and diabetic retinopathy (four classes in total) using patient retinal OCT (Optical Coherence Tomography) images. By creating a CNN model and training it with over **66,885 medical images**, I was able to build a model that achieved **92.57% accuracy rate**. To process large sets of high quality images efficiently, I decided to use Google Colab, which allowed me to utilize its GPUs and memory space. The dataset used for this notebook was acquired from [Kaggle](https://www.kaggle.com/paultimothymooney/kermany2018).
